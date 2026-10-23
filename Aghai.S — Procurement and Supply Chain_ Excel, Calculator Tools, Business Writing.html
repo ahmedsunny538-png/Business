@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Aghai.S — Procurement and Supply Chain: Excel, Calculator Tools, Business Writing</title>
+<meta name="description" content="Aghai.S is a supply chain and procurement professional. Hire for Excel management, landed cost and order quantity calculators, and business writing.">
+<link rel="canonical" href="https://ahmedsunny538-png.github.io/Businesspro/">
+<meta property="og:title" content="Aghai.S — Procurement tools, Excel and writing">
+<meta property="og:description" content="Excel systems, calculator tools and clear business writing from a supply chain purchasing professional.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://ahmedsunny538-png.github.io/Businesspro/">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"ProfessionalService","name":"Aghai.S","description":"Procurement and supply chain consulting: Excel management, calculator tools and business writing.","url":"https://ahmedsunny538-png.github.io/Businesspro/","email":"ahmedsunny538@gmail.com","telephone":"+923441808060"}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#F6F4FB;--surface:#fff;--ink:#17202E;--muted:#516070;--blue:#2A55D6;--yellow:#FFC926;--teal:#00A99D;--coral:#FF5C5C;--violet:#7A4DFF;--green:#1E9E5F;--line:#D9D6E6;--btn:#17202E;color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#10141F;--surface:#1A2030;--ink:#EEF0F7;--muted:#A5AEC0;--blue:#8FAAFF;--line:#2D3550;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#10141F;--surface:#1A2030;--ink:#EEF0F7;--muted:#A5AEC0;--blue:#8FAAFF;--line:#2D3550;color-scheme:dark}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;background:linear-gradient(180deg,rgba(122,77,255,.16),rgba(0,169,157,.10) 380px,transparent 720px) no-repeat,var(--bg);color:var(--ink);font:400 16px/1.6 "Instrument Sans",system-ui,-apple-system,"Segoe UI",sans-serif}
+h1,h2,h3{font-family:"Bricolage Grotesque","Instrument Sans",system-ui,sans-serif;line-height:1.15;margin:0;letter-spacing:-.01em;font-weight:600}
+a{color:inherit}:focus-visible{outline:3px solid var(--violet);outline-offset:3px}
+.wrap{max-width:1080px;margin:0 auto;padding:0 22px}
+.stripe{height:8px;background:linear-gradient(90deg,var(--blue) 0 25%,var(--teal) 0 50%,var(--yellow) 0 75%,var(--coral) 0)}
+header{display:flex;justify-content:space-between;align-items:center;padding:16px 0}
+.brand{display:flex;align-items:center;gap:12px;font:600 22px "Bricolage Grotesque",sans-serif;text-decoration:none}
+.logo{width:44px;height:44px;flex:none}.logo .box{fill:#17202E;stroke:var(--ink);stroke-width:2}
+.logo .s{fill:none;stroke:#FFC926;stroke-width:6;stroke-linecap:round;stroke-dasharray:100;animation:draw 1.5s ease-out 1}
+.brand .word{animation:rise .8s ease-out .9s both}
+@keyframes draw{from{stroke-dashoffset:100}to{stroke-dashoffset:0}}
+@keyframes rise{from{opacity:0;transform:translateX(-8px)}to{opacity:1;transform:none}}
+#menuBtn{width:48px;height:48px;border:2px solid var(--ink);border-radius:10px;background:var(--surface);cursor:pointer;display:grid;place-content:center;gap:5px}
+#menuBtn i{display:block;width:22px;height:3px;background:var(--ink);border-radius:2px}
+#menu{position:fixed;inset:0;z-index:50;background:linear-gradient(160deg,#2A55D6,#7A4DFF 60%,#FF5C5C);color:#fff;padding:calc(env(safe-area-inset-top,0px) + 20px) 28px 28px;display:flex;flex-direction:column}
+#menu[hidden]{display:none}
+#menu .top{display:flex;justify-content:space-between;align-items:center;margin-bottom:24px}
+#menu button.x{font:600 18px "Instrument Sans",sans-serif;background:var(--yellow);color:#17202E;border:0;border-radius:8px;padding:10px 16px;cursor:pointer}
+#menu a{display:block;font:600 clamp(22px,5vw,30px) "Bricolage Grotesque",sans-serif;text-decoration:none;padding:8px 0;border-bottom:1px solid #ffffff33;color:#fff}
+#menu a:nth-of-type(1):hover{color:var(--yellow)}#menu a:hover{color:var(--yellow)}
+.hero{display:grid;gap:40px;padding:36px 0 64px}
+@media(min-width:900px){.hero{grid-template-columns:1.05fr 1fr;align-items:start;padding-top:52px}}
+h1{font-size:clamp(28px,4.6vw,42px);font-weight:600;background:linear-gradient(90deg,var(--blue),var(--violet) 55%,var(--coral));-webkit-background-clip:text;background-clip:text;color:transparent;-webkit-text-fill-color:transparent;padding-bottom:.1em}
+.lede{color:var(--muted);max-width:34em;margin:16px 0 24px;font-size:17px}
+.btn{display:inline-block;background:var(--yellow);color:#17202E;font-weight:600;padding:14px 24px;border-radius:8px;text-decoration:none;border:2px solid var(--yellow);font-family:inherit;font-size:16px;cursor:pointer}
+.btn.ghost{background:transparent;color:var(--ink);border-color:var(--ink);margin-left:8px}
+.btn.sm{padding:9px 16px;font-size:15px}
+.tool{background:var(--surface);border:2px solid var(--ink);border-radius:12px;padding:20px;box-shadow:8px 8px 0 var(--teal)}
+.tool h2{font-size:19px}.sub{color:var(--muted);font-size:15px;margin:4px 0 14px}
+.tabs{display:flex;gap:6px;margin-bottom:16px}
+.tabs button{flex:1;font:600 15px "Instrument Sans",sans-serif;padding:10px;border:2px solid var(--line);background:transparent;color:var(--ink);border-radius:8px;cursor:pointer}
+.tabs button[aria-selected="true"]{background:var(--blue);color:#fff;border-color:var(--blue)}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+label{display:block;font-size:14px;color:var(--muted);font-weight:500}
+input,select,textarea{width:100%;margin-top:4px;padding:10px;font:500 16px "Instrument Sans",sans-serif;color:var(--ink);background:var(--bg);border:2px solid var(--line);border-radius:8px}
+.out{margin-top:16px;padding:14px 16px;border-left:6px solid var(--yellow);background:var(--bg)}
+.out b{font:700 24px "Bricolage Grotesque",sans-serif;display:block}.out span{color:var(--muted);font-size:15px}
+[hidden]{display:none!important}
+section{padding:56px 0;border-top:2px solid var(--ink)}
+section>h2,.sech{font-size:clamp(22px,3.4vw,28px);margin-bottom:24px;color:var(--blue)}
+.row{display:grid;gap:8px 32px;padding:20px 16px 20px 18px;margin-bottom:12px;border-left:8px solid var(--c);border-radius:0 10px 10px 0;background:color-mix(in srgb,var(--c) 11%,transparent)}
+@media(min-width:760px){.row{grid-template-columns:260px 1fr}}
+.row h3{font-size:19px}.row p{margin:0;color:var(--muted);max-width:40em}.row ul{margin:10px 0 0;padding-left:20px}
+.pg{display:grid;gap:16px;grid-template-columns:repeat(auto-fill,minmax(250px,1fr))}
+.pj{background:color-mix(in srgb,var(--c) 9%,var(--surface));border:2px solid var(--ink);border-top:10px solid var(--c);border-radius:10px;padding:16px;display:flex;flex-direction:column;gap:8px}
+.pj h3{font-size:18px}.pj p{margin:0;color:var(--muted);font-size:15px;flex:1}
+.tag{align-self:flex-start;font-size:13px;font-weight:600;color:#fff;background:var(--c);padding:2px 10px;border-radius:99px}
+.pj .acts{display:flex;gap:8px;align-items:center}.pj a.open{font-weight:600;color:var(--blue)}
+.pj button.rm{margin-left:auto;border:0;background:none;color:var(--coral);font-weight:600;cursor:pointer;font-family:inherit}
+#addPanel{background:var(--surface);border:2px dashed var(--violet);border-radius:12px;padding:18px;margin-top:24px}
+#addPanel .grid{margin-bottom:12px}#addPanel textarea{min-height:70px;font-size:13px}
+ol{list-style:none;padding:0;margin:0;display:grid;counter-reset:s}
+@media(min-width:760px){ol{grid-template-columns:repeat(4,1fr);gap:24px}}
+ol li{counter-increment:s;padding:18px 0;border-top:6px solid var(--c)}
+ol li::before{content:"Step " counter(s);display:block;font-weight:600;font-size:15px;color:var(--muted);margin-bottom:6px}
+ol h3{font-size:18px;margin-bottom:6px}ol p{margin:0;color:var(--muted);font-size:16px}
+.contact{background:linear-gradient(135deg,#1B2A6B,#5B35D6 55%,#C4348F);color:#fff}.contact .wrap{padding-top:64px;padding-bottom:64px}
+.contact h2{font-size:clamp(22px,3.6vw,30px);max-width:16em}.contact p{max-width:34em;color:#C9D0E0}
+a.mail{display:block;margin-top:10px;font:600 clamp(18px,3vw,22px) "Bricolage Grotesque",sans-serif;color:var(--yellow);overflow-wrap:anywhere}
+.soc{display:flex;flex-wrap:wrap;gap:14px;margin-top:28px}.soc a{display:block;width:52px;height:52px;transition:transform .15s}.soc a:hover{transform:translateY(-3px)}.soc svg{width:100%;height:100%}
+footer{padding:22px 0;color:var(--muted);font-size:14px}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.logo .s,.brand .word{animation:none}.soc a{transition:none}}
+</style>
+</head>
+<body>
+<div class="stripe"></div>
+<div class="wrap">
+<header>
+  <a class="brand" href="#top" id="top" aria-label="Aghai.S, home"><svg class="logo" viewBox="0 0 48 48" aria-hidden="true"><rect class="box" x="1" y="1" width="46" height="46" rx="10"/><path class="s" pathLength="100" d="M33 14C28 9 14 10 14 19C14 28 34 25 34 34C34 42 20 42 14 36"/></svg><span class="word">Aghai.S</span></a>
+  <button id="menuBtn" aria-label="Open menu" aria-expanded="false" aria-controls="menu"><i></i><i></i><i></i></button>
+</header>
+
+<div id="menu" hidden role="dialog" aria-label="Menu">
+  <div class="top"><b style="font:600 20px 'Bricolage Grotesque',sans-serif">Menu</b><button class="x" id="menuX">Close</button></div>
+  <a href="#top">Home</a><a href="#services">Services</a><a href="#projects">My work</a><a href="#process">Process</a><a href="#contact">Contact</a><a href="#projects" id="menuAdd">Add a project</a><a href="https://wa.me/923441808060" rel="noopener">WhatsApp me</a>
+</div>
+
+<main>
+<div class="hero">
+  <div>
+    <h1>Procurement know-how, built into your spreadsheets and tools.</h1>
+    <p class="lede">I work in supply chain purchasing every day. I build Excel systems, small calculators and clear business writing that help you buy smarter and track costs without guesswork.</p>
+    <a class="btn" href="#contact">Start a project</a><a class="btn ghost" href="#projects">See my work</a>
+  </div>
+  <div class="tool" aria-labelledby="tt">
+    <h2 id="tt">Try one of my tools</h2>
+    <p class="sub">Work out the real cost of an order. Use any currency.</p>
+    <div class="tabs" role="tablist"><button role="tab" id="t1" aria-selected="true" aria-controls="p1">Landed cost</button><button role="tab" id="t2" aria-selected="false" aria-controls="p2">Order quantity</button></div>
+    <div id="p1" role="tabpanel" aria-labelledby="t1">
+      <div class="grid">
+        <label>Unit price<input id="price" type="number" inputmode="decimal" value="12.5" min="0"></label>
+        <label>Quantity<input id="qty" type="number" inputmode="decimal" value="2000" min="1"></label>
+        <label>Freight and insurance<input id="freight" type="number" inputmode="decimal" value="1800" min="0"></label>
+        <label>Import duty (%)<input id="duty" type="number" inputmode="decimal" value="10" min="0"></label>
+        <label>Other costs<input id="other" type="number" inputmode="decimal" value="350" min="0"></label>
+      </div>
+      <div class="out" aria-live="polite"><b id="landed">–</b><span id="landedNote"></span></div>
+    </div>
+    <div id="p2" role="tabpanel" aria-labelledby="t2" hidden>
+      <div class="grid">
+        <label>Yearly demand (units)<input id="d" type="number" inputmode="decimal" value="12000" min="1"></label>
+        <label>Cost per order<input id="s" type="number" inputmode="decimal" value="45" min="0"></label>
+        <label>Holding cost per unit per year<input id="h" type="number" inputmode="decimal" value="2.4" min="0.01"></label>
+      </div>
+      <div class="out" aria-live="polite"><b id="eoq">–</b><span id="eoqNote"></span></div>
+    </div>
+  </div>
+</div>
+
+<section id="services">
+  <h2>Three ways I can help</h2>
+  <div class="row" style="--c:var(--green)"><h3>Excel management</h3><div><p>Messy sheets turned into systems you can rely on.</p><ul><li>Purchase order and supplier trackers</li><li>Price comparison and cost sheets</li><li>Data cleaning, formulas and dashboards</li></ul></div></div>
+  <div class="row" style="--c:var(--blue)"><h3>Small calculator tools</h3><div><p>Simple web and spreadsheet calculators for one job, done well.</p><ul><li>Landed cost and margin calculators</li><li>Reorder point and stock cover tools</li><li>Custom tools for your own process</li></ul></div></div>
+  <div class="row" style="--c:var(--violet)"><h3>Business writing</h3><div><p>Clear writing from someone who has sent and received thousands of supplier emails.</p><ul><li>RFQs, supplier emails and SOPs</li><li>Articles on procurement and supply chain</li><li>Product and tool documentation</li></ul></div></div>
+</section>
+
+<section id="projects">
+  <h2 class="sech">My work</h2>
+  <div class="pg" id="pg"></div>
+  <p style="margin-top:20px"><button class="btn sm ghost" id="toggleAdd" style="margin-left:0">Add a project</button></p>
+  <div id="addPanel" hidden>
+    <div class="grid">
+      <label>Title<input id="aT" maxlength="60"></label>
+      <label>Category<select id="aC"><option>Excel</option><option>Tool</option><option>Writing</option><option>Design</option></select></label>
+      <label>Link (optional, starts with https://)<input id="aL" inputmode="url"></label>
+      <label>Short description<input id="aD" maxlength="120"></label>
+    </div>
+    <button class="btn sm" id="aAdd">Add project</button> <button class="btn sm ghost" id="aCopy">Copy code for GitHub</button>
+    <p class="sub" id="aMsg">Projects you add are saved in this browser only. To show them to every visitor, use "Copy code" and paste it into the PROJECTS list in your file.</p>
+    <textarea id="aOut" readonly hidden></textarea>
+  </div>
+</section>
+
+<section id="process">
+  <h2>How a project works</h2>
+  <ol>
+    <li style="--c:var(--blue)"><h3>Tell me the job</h3><p>Send a short brief and any sample files.</p></li>
+    <li style="--c:var(--teal)"><h3>Get a fixed quote</h3><p>You see price and delivery date before I start.</p></li>
+    <li style="--c:var(--yellow)"><h3>I build it</h3><p>You get a first version to review.</p></li>
+    <li style="--c:var(--coral)"><h3>Revise and hand over</h3><p>I fix what you ask for and explain how to use it.</p></li>
+  </ol>
+</section>
+</main>
+</div>
+
+<div class="contact" id="contact"><div class="wrap">
+  <h2>Have a spreadsheet, tool or document that needs doing?</h2>
+  <p>Send a few lines about what you need. I reply within one working day.</p>
+  <a class="mail" href="mailto:ahmedsunny538@gmail.com">ahmedsunny538@gmail.com</a>
+  <a class="mail" href="tel:+923441808060">0344 1808060</a>
+  <div class="soc">
+    <a href="https://wa.me/923441808060" aria-label="WhatsApp" rel="noopener"><svg viewBox="0 0 44 44"><rect width="44" height="44" rx="11" fill="#25D366"/><path d="M22 10.5a11.500 11.500 0 0 0-9.900 17.300L10.500 33.500l5.900-1.500A11.500 11.500 0 1 0 22 10.500z" fill="none" stroke="#fff" stroke-width="2.500" stroke-linejoin="round"/><path d="M17.500 16.500c-.5 3 3.500 8.500 8.500 9.500l2-2.500-3-1.500-1.200 1.200c-1.500-.6-3-2.200-3.600-3.600l1.200-1.200-1.500-3z" fill="#fff"/></svg></a>
+    <a href="https://www.facebook.com/" aria-label="Facebook" rel="noopener"><svg viewBox="0 0 44 44"><rect width="44" height="44" rx="11" fill="#1877F2"/><path fill="#fff" d="M24 36V24h4l.7-4.700H24v-3c0-1.400.5-2.300 2.400-2.300h2.400V9.900C28.400 9.800 27 9.700 25.500 9.700 22 9.700 19.700 11.800 19.700 15.600v3.700H16V24h3.700v12z"/></svg></a>
+    <a href="https://www.instagram.com/" aria-label="Instagram" rel="noopener"><svg viewBox="0 0 44 44"><defs><linearGradient id="ig" x1="0" y1="1" x2="1" y2="0"><stop offset="0" stop-color="#F58529"/><stop offset=".5" stop-color="#DD2A7B"/><stop offset="1" stop-color="#8134AF"/></linearGradient></defs><rect width="44" height="44" rx="11" fill="url(#ig)"/><rect x="11" y="11" width="22" height="22" rx="7" fill="none" stroke="#fff" stroke-width="2.500"/><circle cx="22" cy="22" r="5.200" fill="none" stroke="#fff" stroke-width="2.500"/><circle cx="28.500" cy="15.500" r="1.600" fill="#fff"/></svg></a>
+    <a href="https://www.tiktok.com/" aria-label="TikTok" rel="noopener"><svg viewBox="0 0 44 44"><rect width="44" height="44" rx="11" fill="#111"/><path d="M23 10v15a5 5 0 1 1-5-5M23 10c.6 3.300 2.800 5.200 6 5.500" fill="none" stroke="#25F4EE" stroke-width="3" stroke-linecap="round" transform="translate(-1.500 1)"/><path d="M23 10v15a5 5 0 1 1-5-5M23 10c.6 3.300 2.800 5.200 6 5.500" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round"/></svg></a>
+    <a href="https://www.linkedin.com/" aria-label="LinkedIn" rel="noopener"><svg viewBox="0 0 44 44"><rect width="44" height="44" rx="11" fill="#0A66C2"/><text x="22" y="29.500" font-size="19" font-weight="700" font-family="Arial,sans-serif" fill="#fff" text-anchor="middle">in</text></svg></a>
+  </div>
+</div></div>
+<div class="wrap"><footer>© 2026 Aghai.S. Supply chain and procurement.</footer></div>
+
+<script>
+(function(){
+var $=function(i){return document.getElementById(i)};
+function n(i){var v=parseFloat($(i).value);return isNaN(v)?0:v}
+function f(x){return isFinite(x)?x.toLocaleString(undefined,{maximumFractionDigits:2}):"–"}
+function landed(){var g=n("price")*n("qty"),q=n("qty"),t=g+n("freight")+g*n("duty")/100+n("other");
+$("landed").textContent=q>0?f(t/q)+" per unit":"–";
+$("landedNote").textContent=q>0&&g>0?"Total "+f(t)+". Extra costs add "+f((t-g)/g*100)+"% to the goods price.":"Enter a price and quantity."}
+function eoq(){var D=n("d"),S=n("s"),H=n("h");if(D<=0||H<=0){$("eoq").textContent="–";$("eoqNote").textContent="Enter demand and holding cost.";return}
+var Q=Math.sqrt(2*D*S/H),o=D/Q;$("eoq").textContent=f(Math.round(Q))+" units per order";$("eoqNote").textContent="About "+f(o)+" orders a year, one every "+f(365/o)+" days."}
+["price","qty","freight","duty","other"].forEach(function(i){$(i).addEventListener("input",landed)});
+["d","s","h"].forEach(function(i){$(i).addEventListener("input",eoq)});
+function tab(a){$("p1").hidden=a!==1;$("p2").hidden=a===1;$("t1").setAttribute("aria-selected",a===1);$("t2").setAttribute("aria-selected",a!==1)}
+$("t1").onclick=function(){tab(1)};$("t2").onclick=function(){tab(2)};landed();eoq();
+
+/* Menu */
+var m=$("menu"),mb=$("menuBtn");
+function menu(o){m.hidden=!o;mb.setAttribute("aria-expanded",o);if(o)$("menuX").focus();else mb.focus()}
+mb.onclick=function(){menu(true)};$("menuX").onclick=function(){menu(false)};
+m.addEventListener("click",function(e){if(e.target.tagName==="A"){m.hidden=true;mb.setAttribute("aria-expanded",false)}});
+document.addEventListener("keydown",function(e){if(e.key==="Escape"&&!m.hidden)menu(false)});
+$("menuAdd").addEventListener("click",function(){$("addPanel").hidden=false});
+
+/* Projects: edit this list to show work to every visitor */
+var PROJECTS=[
+ {title:"Supplier price comparison sheet",cat:"Excel",desc:"Compare quotes side by side and pick the best total cost. Sample entry.",link:""},
+ {title:"Landed cost calculator",cat:"Tool",desc:"Work out the true cost per unit including freight and duty.",link:"#top"},
+ {title:"RFQ and supplier email templates",cat:"Writing",desc:"Clear templates that get faster and better quotes. Sample entry.",link:""}
+];
+var COL={Excel:"#1E9E5F",Tool:"#2A55D6",Writing:"#7A4DFF",Design:"#FF5C5C"},KEY="aghai_projects_extra",extra=[];
+try{extra=JSON.parse(localStorage.getItem(KEY)||"[]")}catch(e){extra=[]}
+if(!Array.isArray(extra))extra=[];
+function save(){try{localStorage.setItem(KEY,JSON.stringify(extra))}catch(e){}}
+function ok(u){return /^https?:\/\//i.test(u)||u.charAt(0)==="#"}
+function card(p,idx){var d=document.createElement("div");d.className="pj";d.style.setProperty("--c",COL[p.cat]||"#2A55D6");
+var t=document.createElement("span");t.className="tag";t.textContent=p.cat;d.appendChild(t);
+var h=document.createElement("h3");h.textContent=p.title;d.appendChild(h);
+var q=document.createElement("p");q.textContent=p.desc||"";d.appendChild(q);
+var a=document.createElement("div");a.className="acts";
+if(p.link&&ok(p.link)){var l=document.createElement("a");l.className="open";l.href=p.link;l.textContent="Open";if(p.link.charAt(0)!=="#"){l.target="_blank";l.rel="noopener"}a.appendChild(l)}
+if(idx>=0){var r=document.createElement("button");r.className="rm";r.textContent="Remove";r.onclick=function(){extra.splice(idx,1);save();draw()};a.appendChild(r)}
+d.appendChild(a);return d}
+function draw(){var g=$("pg");g.textContent="";PROJECTS.forEach(function(p){g.appendChild(card(p,-1))});extra.forEach(function(p,i){g.appendChild(card(p,i))})}
+$("toggleAdd").onclick=function(){$("addPanel").hidden=!$("addPanel").hidden};
+$("aAdd").onclick=function(){var t=$("aT").value.trim(),l=$("aL").value.trim();
+if(!t){$("aMsg").textContent="Write a title first.";return}
+if(l&&!ok(l)){$("aMsg").textContent="The link must start with https://";return}
+extra.push({title:t,cat:$("aC").value,desc:$("aD").value.trim(),link:l});save();draw();
+$("aT").value=$("aL").value=$("aD").value="";$("aMsg").textContent="Project added."};
+$("aCopy").onclick=function(){var s=JSON.stringify(extra,null,1);var o=$("aOut");o.hidden=false;o.value=s;o.select();
+try{navigator.clipboard.writeText(s)}catch(e){}$("aMsg").textContent="Code copied. Paste it inside the PROJECTS list in your file."};
+draw();
+})();
+</script>
+</body>
+</html>
